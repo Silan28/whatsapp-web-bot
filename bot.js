@@ -273,7 +273,7 @@ El mateix es podria dir de Naruto, però no és tan rellevant. La quuestio es qu
 		}
 		
 		if (lastMsg.toUpperCase().indexOf('@CITA') > -1){
-			sendText = jokeList[rand(citasList.length - 1)];
+			sendText = citasList[rand(citasList.length - 1)];
 		}
 		
 		if (lastMsg.toUpperCase().indexOf('@INSULTO') > -1){
