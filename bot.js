@@ -56,8 +56,10 @@ El mateix es podria dir de Naruto, però no és tan rellevant. La quuestio es qu
 		Jordi, si anem et cardo una carbonara ben parida.`
 	]
 	
-	const insultList = ["Subnormal", "Gordo", "Estúpido", "Papafrita", "Anormal", "Feo"];
-
+	const insultList = ["Subnormal", "Gordo", "Estúpido", "Papafrita", "Anormal", "Feo", "Baboso", "Capullo", "Caraflema", "Chupasangre", "Gañán", 
+			   "Gorrino", "Cerdo", "Lerdo", "Merluzo", "Pagafantas", "Plancha bragas", "Pelagambas", "Mierdaseca", "Chupacables", "Lameculos",
+			   "Perroflauta", "Cenutrio", "Melón", "Caraespátula", "Panoli", "Zarrapastroso", "Hijoputa", "Aborto de mono", "Piltrafa", "Perra"];
+	const insultList2= [" sin cabeza", " anormal", " malnacido", " hijo de la gran puta", " de mierda", " de los cojones", " asqueroso", " repugnante"]
 
 	//
 	// FUNCTIONS
@@ -277,7 +279,10 @@ El mateix es podria dir de Naruto, però no és tan rellevant. La quuestio es qu
 		}
 		
 		if (lastMsg.toUpperCase().indexOf('@INSULTO') > -1){
-			sendText = insultList[rand(insultList.length - 1)];
+			if (rand(2)>=1) {
+				sendText = insultList[rand(insultList.length - 1)];
+			} else {
+				sendText = insultList[rand(insultList.length - 1)].concat(insultList[rand(insultList.length - 1)])
 		}
 		if (lastMsg.toUpperCase().indexOf('@RULETA') > -1){
 			if (rand(5)>=1) {
