@@ -36,6 +36,26 @@
 		A kiss is so dear, a car is too dear and a monkey is U dear.`
 	]
 	
+	const citasList = [
+		`
+		Omets informació i tergiverses coses al teu favor per argumentar coses sense sentit Eslava`,
+
+		`
+		he pensat el seguent Jan:
+
+Que no t interesses prou en res. M'explico. Elogies constantment coses que, a la mínima que saps una mica sobre el tema, saps que no son res del altre món. Un exemple clar d això és el Kingdom Hearts dins el món del videojoc, o Saw dins el món de les pel·licules, Merlí amb les sèries. Són coses que, s ens dubte, són bones. Però si et prenguessis el temps de mirar més endins, trobaries coses molt millors.
+El mateix es podria dir de Naruto, però no és tan rellevant. La quuestio es que no t interesses prou en res. Es interessant com també has escollit fer enginyeria industrial, que es una enginyeria abstant generalista, amb el master igual. No t especialitzes.`,
+
+		`
+		a la irina la follo, però a la salipan li faig l amor`,
+		
+		`
+		No es nada facil afeitar pelos que no se han tocado desde que crecieron, supongo que en mi caso tienen bastante volumen. Tampoco tenia la mejor de las cuchillas`,
+
+		`
+		Jordi, si anem et cardo una carbonara ben parida.`
+	]
+	
 	const insultList = ["Subnormal", "Gordo", "Estúpido", "Papafrita", "Anormal", "Feo"];
 
 
@@ -237,7 +257,8 @@
 				1. *@TIME*
 				2. *@JOKE*
 				3. *@INSULTO* (WIP)
-				4. *@RULETA* (WIP)`
+				4. *@RULETA* (WIP)
+				5. *@CITA* (WIP)`
 		}
 
 		if (lastMsg.toUpperCase().indexOf('@TIME') > -1){
@@ -249,6 +270,10 @@
 
 		if (lastMsg.toUpperCase().indexOf('@JOKE') > -1){
 			sendText = jokeList[rand(jokeList.length - 1)];
+		}
+		
+		if (lastMsg.toUpperCase().indexOf('@CITA') > -1){
+			sendText = jokeList[rand(citasList.length - 1)];
 		}
 		
 		if (lastMsg.toUpperCase().indexOf('@INSULTO') > -1){
