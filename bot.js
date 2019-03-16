@@ -255,7 +255,7 @@
 			sendText = insultList[rand(insultList.length - 1)];
 		}
 		if (lastMsg.toUpperCase().indexOf('@RULETA') > -1){
-			if rand(1)>(1/6) {
+			if (rand(1)>(1/6)) {
 				sendText= "El tambor gira a su siguiente posición y... _clac_. Vives."
 			} else {
 				sendText= "El tambor gira a su siguiente posición y... _*BANG*_. Tus sesos vuelan por todas partes."
