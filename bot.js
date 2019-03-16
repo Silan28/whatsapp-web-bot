@@ -27,6 +27,9 @@
 
 		`
 		Jan, subnormal`,
+		
+		`
+		Ho pux estudiar, si`,
 
 		`
 		What is a difference between a Kiss, a Car and a Monkey? 
