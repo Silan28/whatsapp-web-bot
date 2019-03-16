@@ -26,7 +26,7 @@
 		Wife: Yes darling I still do, only difference is earlier it was 300ml now it's 1.5 ltr.`,
 
 		`
-		Jan, subnormal`,
+		Janoti, subnormal`,
 		
 		`
 		Ho pux estudiar, si`,
@@ -35,6 +35,8 @@
 		What is a difference between a Kiss, a Car and a Monkey? 
 		A kiss is so dear, a car is too dear and a monkey is U dear.`
 	]
+	
+	const insultList = ["Subnormal", "Gordo", "Estúpido", "Papafrita", "Anormal", "Feo"];
 
 
 	//
@@ -233,12 +235,14 @@
 				Cool ${title}! Some commands that you can send me:
 
 				1. *@TIME*
-				2. *@JOKE*`
+				2. *@JOKE*
+				3. *@INSULTO* (WIP)
+				4. *@RULETA* (WIP)`
 		}
 
 		if (lastMsg.toUpperCase().indexOf('@TIME') > -1){
 			sendText = `
-				Don't you have a clock, dude?
+				Esta es la hora que es ahora, patrocinada por JORDI:
 
 				*${new Date()}*`
 		}
@@ -247,6 +251,17 @@
 			sendText = jokeList[rand(jokeList.length - 1)];
 		}
 		
+		if (lastMsg.toUpperCase().indexOf('@INSULTO') > -1){
+			sendText = insultList[rand(insultList.length - 1)];
+		}
+		if (lastMsg.toUpperCase().indexOf('@RULETA') > -1){
+			if rand(1)>(1/6) {
+				sendText= "El tambor gira a su siguiente posición y... _clac_. Vives."
+			} else {
+				sendText= "El tambor gira a su siguiente posición y... _*BANG*_. Tus sesos vuelan por todas partes."
+
+			}
+		}
 		// that's sad, there's not to send back...
 		if (!sendText) {
 			ignoreLastMsg[title] = lastMsg;
