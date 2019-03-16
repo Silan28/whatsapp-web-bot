@@ -282,7 +282,8 @@ El mateix es podria dir de Naruto, però no és tan rellevant. La quuestio es qu
 			if (rand(2)>=1) {
 				sendText = insultList[rand(insultList.length - 1)];
 			} else {
-				sendText = insultList[rand(insultList.length - 1)].concat(insultList[rand(insultList.length - 1)])
+				sendText = insultList[rand(insultList.length - 1)] + insultList2[rand(insultList2.length - 1)]
+			}
 		}
 		if (lastMsg.toUpperCase().indexOf('@RULETA') > -1){
 			if (rand(5)>=1) {
