@@ -26,10 +26,7 @@
 		Wife: Yes darling I still do, only difference is earlier it was 300ml now it's 1.5 ltr.`,
 
 		`
-		God created the earth, 
-		God created the woods, 
-		God created you too, 
-		But then, even God makes mistakes sometimes!`,
+		Jan, subnormal`,
 
 		`
 		What is a difference between a Kiss, a Car and a Monkey? 
