@@ -53,7 +53,75 @@ El mateix es podria dir de Naruto, però no és tan rellevant. La quuestio es qu
 		No es nada facil afeitar pelos que no se han tocado desde que crecieron, supongo que en mi caso tienen bastante volumen. Tampoco tenia la mejor de las cuchillas`,
 
 		`
-		Jordi, si anem et cardo una carbonara ben parida.`
+		Jordi, si anem et cardo una carbonara ben parida.`,
+		`
+		Pero una cosa, perque es important que sobrevigui l especie. Es que la naturalessa de la vida es sobreviure sol.
+Vius per mantenir viva l especie i els teus gens. Perque es inportant aixo? Perque es el motiu aquest?`,
+		`
+		Estic al metro i hi ha un tiu que es el nil mes el pavi aquell de best que sembla el sebulva/camell`,
+		`
+		A la uni en felix i jo ens estem gusnyant fama de bad boys xdd`,
+		`
+		A la ub, a la carrera que feia, que la meitat tenien com a segona opcio informatica sino la primera, feia un olor horroros a sudat. Ningu amb desodorant, una cosa horrorosa.
+Els dos cops que he anat a campus nord ha estat pitjor, un olor a merda horroros`,
+		`
+		Jo cuino de puta mare. A anys llum de qualsevol d aquest grup. Que us cuinen tot`,
+		`
+		et fotre tal ostia que aniras a chicago amb el gilipollas del teu germa`,
+		`
+		Jm es bastant toxic perque es massa succeptible i es fot a fer pataletes pel grup. Adoptant actituds com fer fora gent del xat perquè no li agrada el que diuen`,
+		`
+		Això en Nil, que a sobre de patinador es violador`,
+		`
+		Als comics, thanos viatja per tot l univers en busca de les pedres, i es va trobant coses molt guais, éssers perfectes i entitats encara més poderoses que ell`,
+		`
+		Eatas fet per passar el teu material genetic
+A traves de fertilitzar a una femella`,
+		`
+		aprofito per anunciar que estic fent una canço de regeton
+em podeu dir "el Kanye català"`,
+		`
+		Mirad la serie gigantes`,
+		`
+		Uff, has respondido rapido. Signos de dolor alex`,
+		`
+		Aquest divendres es taja
+Es taja i es folla`,
+		`
+		El primer cop que vaog veure el jm, em semblava una torre`,
+		`
+		despres t agraden tancs i armes, que amb un putu canyons et volenm els intestins i tots els teus organs surten volant`,
+		`
+		Bueno, acabod e veure els videos de xxxtentacion i jo diria que està ben mort`,
+		`
+		Un colom m ha cagat al cap`,
+		`
+		Nil, si ara estaras una temporada buscant maneres d insultar per dos chorrades que t hem dit, bastant penos`,
+		`
+		La germans del brotons está bona`,
+		`
+		Si almenos c0ges mis frases, usalas bien alex eslava`,
+		`
+		Alex, has apareciso en mi sueño. Reivindicando que estás mazado y que comer kebabs es bueno`,
+		`
+		esa es mi línea`,
+		`
+		malament el girona`,
+		`
+		Nil cagat emo immadur que diu molt pels xats i despres no sap donar ni una ostia`,
+		`
+		Jo tinc amb qui anar al gym, no com tu, que no hi vas perque no tens amb qui anar`,
+		`
+		Que puto pavito eres`,
+		`
+		UN COP VA BAIXAR UN JABALI FINS LA DONA I L OCELL
+
+EL VAN MATAR`,
+		`
+		, ,,bueno, venen temps difícils`,
+		`
+		Pues que yo quiero un es, y muuuuuuucha gente quiere un ES`
+		
 	]
 	
 	const insultList = ["Subnormal", "Gordo", "Estúpido", "Papafrita", "Anormal", "Feo", "Baboso", "Capullo", "Caraflema", "Chupasangre", "Gañán", 
